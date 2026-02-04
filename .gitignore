@@ -1,0 +1,26 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Python (Archivos compilados y caché)
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Configuración y Secretos (¡IMPORTANTE!)
+.env
+.flaskenv
+
+# Archivos de sistema de Windows
+Thumbs.db
+desktop.ini
+
+# Datos y PDFs (Opcional: ignora la carpeta si vas a subir archivos grandes)
+# data/
+# *.pdf
+
+# VS Code
+.vscode/
