@@ -7,3 +7,9 @@ class QueryRequest(BaseModel):
     pinecone_key: str
     index_name: str
     top_k: Optional[int] = 3  # Cuántos documentos recuperar por defecto
+    
+    
+class ConfigRequest(BaseModel):
+    openai_key: str
+    pinecone_key: str
+    index_name: str
